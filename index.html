@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>VUB Math</title>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="css/styles.css" />
     <style>
       header {
         text-align: center;
@@ -13,6 +13,7 @@
   </head>
   <body class="container">
     <header>
+      <span id="currentDate">Date</span>
       <h1>TELACU</h1>
       <h2>Veterans' Upward Bound</h2>
       <h3>Math</h3>
@@ -20,7 +21,7 @@
     <hr />
     <main>
       <nav>
-        <ul>
+        <ul class="mainNav">
           <li><a href="math100/math100.html">Math 100</a></li>
           <li><a href="math200/math200.html">Math 200</a></li>
           <li><a href="math300/math300.html">Math 300</a></li>
@@ -32,38 +33,44 @@
         </ul>
       </nav>
       <hr />
-      <img src="./complexNumberSystem.jpg" alt="complex number system" />
+      <figure>
+        <img src="images/complexNumberSystem.jpg" alt="complex number system" />
+      </figure>
+
       <hr />
       <table id="calendar">
-        <tr>
+        <thead>
           <th colspan="2">Academic Calendar</th>
-        </tr>
+        </thead>
         <tr>
           <td>Summer 2023</td>
-          <td>July 17, 2023 to August 25, 2023</td>
+          <td class="dates">July 17, 2023 to August 25, 2023</td>
         </tr>
         <tr>
           <td>Fall 2023</td>
-          <td>October 9, 2023 to November 17, 2023</td>
+          <td class="dates">October 9, 2023 to November 17, 2023</td>
         </tr>
         <tr>
           <td>Winter 2024</td>
-          <td>January 29, 2024 to March 8, 2024</td>
+          <td class="dates">January 29, 2024 to March 8, 2024</td>
         </tr>
         <tr>
           <td>Spring 2024</td>
-          <td>April 22, 2024 to May 31, 2024</td>
+          <td class="dates">April 22, 2024 to May 31, 2024</td>
         </tr>
         <tr>
           <td>Summer 2024</td>
-          <td>July 29, 2024 to September 6, 2024</td>
+          <td class="dates">July 29, 2024 to September 6, 2024</td>
         </tr>
       </table>
     </main>
     <hr />
     <footer>
-      <p>Instructor: Michael Cazares</p>
-      <p>Email: mcazares@telacu.com</p>
+      <p><span>Instructor:</span> Michael Cazares</p>
+      <p>
+        <a href="mailto: mcazares@telacu.com" id="email">mcazares@telacu.com</a>
+      </p>
     </footer>
+    <script src="js/script.js"></script>
   </body>
 </html>
