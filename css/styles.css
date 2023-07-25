@@ -36,11 +36,6 @@ h4 {
   padding-top: 1rem;
 }
 
-/* .mainNav {
-  display: flex;
-  justify-content: space-around;
-} */
-
 h3,
 p,
 li,
@@ -85,27 +80,19 @@ pre {
 
 table {
   width: 50%;
-  margin: 0 auto;
+  /* margin: 0 auto;
   color: #fff;
-  padding-top: 3rem;
+  padding-top: 3rem; */
 }
 
-td {
+/* td {
   border: 2px solid #fff;
 }
 
 tr,
 td {
   padding: 1rem;
-}
-
-tr:nth-child(odd) {
-  background-color: #cc0000;
-}
-
-tr:nth-child(even) {
-  background-color: #0000cc;
-}
+} */
 
 #calendar {
   border-collapse: collapse;
